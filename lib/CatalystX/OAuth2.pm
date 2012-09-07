@@ -3,6 +3,8 @@ use Moose::Role;
 
 # ABSTRACT: OAuth2 services for Catalyst
 
+our $VERSION = '0.001002';
+
 =head1 SYNOPSIS
 
     package AuthServer::Controller::OAuth2::Provider;

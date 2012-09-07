@@ -1,0 +1,30 @@
+---
+abstract: unknown
+author:
+  - 'Lenz Gschwendtner <norbu09@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 6.36
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.36
+dynamic_config: 0
+generated_by: 'Module::Install version 1.04, CPAN::Meta::Converter version 2.112150'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: CatalystX-OAuth2
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Catalyst::Controller::ActionRole: 0
+  Catalyst::Runtime: 5.80030
+  Moose: 1.03
+  MooseX::SetOnce: 0
+  namespace::autoclean: 0
+resources:
+  license: http://dev.perl.org/licenses/
+  repository: https://github.com/norbu09/CatalystX-OAuth2
+version: 0.001002
